@@ -6,7 +6,7 @@ const User = require('./models/User');
 
 dotenv.config({ path: './config/.env' });
 
-mongoose.connect(process.env.DB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb://localhost:27017/users');
 
 app.use(express.json());
 
