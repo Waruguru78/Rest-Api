@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Waruguru78/Rest-Api/issues"
   },
-  "homepage": "https://github.com/Waruguru78/Rest-Api#readme"
+  "homepage": "https://github.com/Waruguru78/Rest-Api#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.6.2"
+  }
 }
